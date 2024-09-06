@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Projet de Stage : Création d'un Site Web pour "Collection D'artistes"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+Ce projet a été réalisé dans le cadre d'un stage chez **Le Robinson Cabaret**. L'objectif était de concevoir, développer et déployer un site web pour un spectacle particulier intitulé **"Collection D'artistes"**. Ce site met en scène la vente d'objets ayant appartenu à des célébrités, offrant une expérience unique mêlant art et histoire. Le projet inclut plusieurs aspects du développement web, de la conception de maquettes UI/UX à l'intégration du site sur WordPress en passant par une veille concurrentielle.
 
-In the project directory, you can run:
+## Table des Matières
 
-### `npm start`
+- [Fonctionnalités](#fonctionnalités)
+- [Installation](#installation)
+- [Utilisation](#utilisation)
+- [Structure du Projet](#structure-du-projet)
+- [Technologies Utilisées](#technologies-utilisées)
+- [Auteur](#auteur)
+- [Licence](#licence)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Fonctionnalités
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Veille concurrentielle** : Analyse des sites concurrents pour inspirer le design du site.
+- **UI/UX Design** : Création de maquettes interactives utilisant Figma.
+- **Développement Web** : Intégration des maquettes sur WordPress avec Elementor Pro.
+- **Pages clés** : Accueil, galerie, contact, et pages dédiées aux professionnels.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prérequis
 
-### `npm run build`
+- Node.js (version 14.x ou supérieure)
+- npm (version 6.x ou supérieure)
+- Un environnement de développement (Visual Studio Code, WebStorm, etc.)
+- WordPress installé localement ou sur un serveur distant
+- Figma pour la conception UI/UX
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Accédez au répertoire du projet
+   ```bash
+   cd blog-stage
+    ```
+2. Installez les dépendances
+   ```bash
+   npm install
+    ```
+3. Lancer le serveur de développement
+   ```bash
+   npm start
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Utilisées
+**Frontend :** React.js, HTML, CSS <br>
+**Design :** Figma pour les maquettes UI/UX <br>
+**CMS :** WordPress avec Elementor Pro <br>
+**Version Control :** Git
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Auteur
+**Florent DETRES -** Développeur Web et Designer UI/UX
